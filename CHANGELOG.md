@@ -2,6 +2,21 @@
 
 What changed in each release of Capy for Android and iOS. Downloads are on the [Releases](https://github.com/ciranda-dev/capy-mobile-releases/releases) page.
 
+## 0.0.3 · 2026-10-26
+
+- Your 24 words are now sealed by the phone's keychain, kept only on this phone and out of backups; an older install moves them there by itself
+- On-device AI on your phone: pick a transcription model (Whisper Tiny, Base or Small) and one to write your notes (Llama 3.2 1B, Qwen3 1.7B or 4B), each saying whether your phone can run it. After a call the minutes, decisions, tasks and chapters write themselves, or tap "Write the notes now". Ask your rooms, and translate captions
+- Your voice is transcribed in the language you speak, and short noises no longer turn into words
+- Calls ring on your phone while Capy is open, and your own call on another device doesn't ring
+- Hold the camera button to record a video message, let go to send, slide away to cancel
+- Mic, camera and Leave always stay on screen in a call
+- Rooms come back right away when you return to Capy, with a strip saying what Capy is waiting for; messages arrive together instead of one by one
+- The chat stays smooth when messages arrive
+- A message's time and status sit together at its end; the "+" is inside the message field; photos, room pictures and profile photos open full screen with zoom
+- Sending finishes even if you leave Capy right after
+- Android: Reply raises the keyboard, and a long-pressed message no longer disappears
+- From this version, changes that don't touch the app's native parts arrive over the air
+
 ## 0.0.2 · 2026-10-26
 
 - Calls no longer freeze when they open, and buttons answer at once during a call
