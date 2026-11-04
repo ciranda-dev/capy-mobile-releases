@@ -4,7 +4,7 @@ What changed in each release of Capy for Android and iOS. Downloads are on the [
 
 ## 0.0.10 · 2026-11-04
 
-- Background in calls: blur what's behind you (light or strong) or put a picture there (four come with Capy, or up to three of your own, kept on this phone and removed by Log out and erase). It's worked out on the phone before the camera goes out; if the phone can't keep up or gets too hot, your camera goes off for the others rather than send the room as it is. Pick it in the call's lobby, in the call's More menu, or in Settings → Media. Photos and video messages go as the camera sees them
+- Background in calls: blur what's behind you (light or strong) or put a picture there (four come with Capy, or up to three of your own, kept on this phone and removed by Log out and erase). It's worked out on the phone before the camera goes out; if the phone can't keep up or gets too hot, your camera goes off for the others rather than send the room as it is. Pick it in the call's lobby, in the call's More menu, or in Settings → Audio & video. Photos and video messages go as the camera sees them
 - On iPhone the effect uses Apple's Vision, on Android MediaPipe's Selfie Segmentation. Nothing is downloaded and nothing is sent anywhere for it
 - This version has new code inside the app, so it does not come over the air: install the APK or TestFlight build 10
 
