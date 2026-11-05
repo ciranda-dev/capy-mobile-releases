@@ -2,6 +2,15 @@
 
 What changed in each release of Capy for Android and iOS. Downloads are on the [Releases](https://github.com/ciranda-dev/capy-mobile-releases/releases) page.
 
+## 0.0.11 · 2026-11-05
+
+- Edit a message: long-press it and pick Edit. It says "Edited", and someone on an older Capy keeps seeing the first text
+- Polls in a room, find a time and approving a call's minutes, the same as on the desktop. Votes are open and named: everyone in the room, now and later, sees who voted for what
+- Translate a message on this phone with the captions' translation models. Code, links and mentions stay as written, and nothing is sent
+- Handset mode: hold the phone to your ear in a voice call and the sound moves to the earpiece and the screen turns off. Turn it off in Settings → Audio & video
+- Present a PDF in a call on Android, read in a worker of its own. iPhones can't yet: the iPhone's JavaScript engine in Capy has no WebAssembly
+- This version has new code inside the app, so it does not come over the air: install the APK or TestFlight build 11
+
 ## 0.0.10 · 2026-11-04
 
 - Background in calls: blur what's behind you (light or strong) or put a picture there (four come with Capy, or up to three of your own, kept on this phone and removed by Log out and erase). It's worked out on the phone before the camera goes out; if the phone can't keep up or gets too hot, your camera goes off for the others rather than send the room as it is. Pick it in the call's lobby, in the call's More menu, or in Settings → Audio & video. Photos and video messages go as the camera sees them
