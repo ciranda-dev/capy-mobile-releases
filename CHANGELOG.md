@@ -2,6 +2,19 @@
 
 What changed in each release of Capy for Android and iOS. Downloads are on the [Releases](https://github.com/ciranda-dev/capy-mobile-releases/releases) page.
 
+## 0.0.13 · 2026-11-26
+
+- Deleted messages: a deleted message shows nothing. "Message deleted" stays only where a message you can see quotes it or a thread with a reply hangs from it, and a mute that deletes everything someone wrote shows as one line, at its own time
+- On iPhone, notifications keep coming after Capy is installed again from the App Store or restored from a backup onto another iPhone: every room you have notifications on is subscribed again each time Capy opens. Before, such a phone could stay switched on and never get a notification
+- To install it fresh, use TestFlight build 13
+
+## 0.0.12 · 2026-11-06
+
+- A closed poll's result can't change anymore. Before, a member running a modified Capy could swap a vote after the close and change the result on every device
+- Translate a message only names a short message's language when it is sure of it, and asks you to pick it otherwise
+- The owner of a room with no admin can report someone again
+- A poll's Close poll button has its outline again, so it doesn't look like plain text in the dark theme
+
 ## 0.0.11 · 2026-11-05
 
 - Edit a message: long-press it and pick Edit. It says "Edited", and someone on an older Capy keeps seeing the first text
